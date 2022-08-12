@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    padding-right: 0;
+
+}
+
+
+@media (max-width:767px) {
+    .section-1{
+      display: none;
+        padding-left: 0;
+    }
+
+    
+}
+
+
+@media( max-width:430px){
+    .Collections{
+        text-align: start;
+    }
+}
+
+.bgimg{
+    background-image: url("cover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 462px;
+    position:relative;
+    width: 100%;
+ 
+ }
+
+ .cards{
+    width: 100%;
+    justify-content: space-around;
+ }
+ .main{
+    margin-right: 0;
+    width: 100%;
+ }
+
+ .Zomatotitle{
+    font-size: 80px;
+    font-weight: 1000;
+ }
+
+ .input-group
+{
+    width: 60%;
+}
+.searchbar{
+    margin-left: 30%;
+}
+.cardhead{
+    font-size: 20px;
+    font-weight: 700;
+}
+.main2head{
+    font-size: 35px;
+    font-weight: 600;
+
+}
+.chennai{
+    display: inline;
+     float: right; 
+     color: red;
+}
+.chennai:hover{
+    color: rgb(82, 77, 71);
+}
+
+.colletiondiv{
+    display: flex;
+}
+.divphoto{
+    position: relative;
+  text-align: center;
+  color: white;
+
+ 
+  
+  
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  .bordd{
+    border-radius: 10px;
+  }
+
+  @media (max-width:767px) {
+    .divphoto1{
+      display: none;
+        padding-left: 0;
+    }
+    
+}
+
+
+.offwhitediv{
+    height: 525px;
+    width: 100%;
+    background-color: #fffbf7;
+    margin-top: 70px;
+    
+
+}
+.offwhitediv1{
+    display: flex;
+    position: relative;
+    justify-content: end;
+}
+
+.zomatophone{
+    width: 240px;
+    height: auto;
+    position: absolute;
+    margin-top: 130px;
+    
+}
+
+.zomtext{
+    font-size: 40px;
+}
+
+.form-outline{
+    width: 70%;
+    display: flex;
+   
+}
+.btn{
+    width: 35%;
+}
+
+.tt{
+    font-weight: 200;
+}
+.pic{
+    height: auto;
+    width: 18%;
+}
+.pic2{
+    margin-left: 20px;
+}
+.form-control{
+    width: fit-content;
+}
+.btn12{
+    margin-left: 10px;
+    width: max-content;
+}
+
+@media (max-width:767px) {
+    .offwhitediv1{
+      display: none;
+    
+        padding-left: 0;
+    }
+    .offwhitediv2{
+        margin-left: 10%;
+        width: 90%
+        
+    }
+    .pic{
+        width: 30%;
+        height: auto;
+    }
+
+    
+}
+
+.downloadapp{
+    font-weight: 300;
+}
+.random{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: start;
+    
+}
+.random1{
+    display: flex;
+    width: 10%;
+   
+}
+.Explore{
+    background-color: #fcfcfc;
+}
+.dropfdiv{
+    box-sizing: border-box;
+    background-color: white;
+    border: solid 1px;
+}
+.dropdown1{
+    width: 120%;
+    height: 50px;
+    border: solid thin;
+    background: white;
+}
+
+.footer{
+    background: #f8f8f8;
+    padding-top: 50px;
+}
+.foodiv1{
+    
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+.fzom{
+    font-size: 30px;
+    font-weight: 1000;
+}
+#dropdownMenuButton{
+    width: 150px;
+}
+
+.boxx{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #213b50;
+    width: 100px; 
+    border-radius: 5px;
+}
+
+.abc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ul{
+    list-style: none;
+    
+}
+.footer-col ul li a{
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+}
